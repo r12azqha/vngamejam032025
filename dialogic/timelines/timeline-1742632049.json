@@ -1,0 +1,148 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Dimas berjalan melewati lorong sempit, suara langkahnya menggema.)"
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lorong ini panjang... dan remang-remang.\nLampu berkedip. Udara di sini dingin... terlalu dingin untuk malam biasa."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742632198.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "show arif normal at left"
+		},
+		{
+			"character": "character-1742632198.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hei, kamu anak baru ya?"
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eh? Iya, saya Dimas. Baru pindah hari ini."
+		},
+		{
+			"character": "character-1742632198.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Kamu di kamar mana?"
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "404."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742632198.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "show arif shocked"
+		},
+		{
+			"character": "character-1742632198.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Serius?!\nAh... sudahlah. Semoga beruntung."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742632198.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Apa maksudnya 'semoga beruntung'...?)"
+		},
+		{
+			"change_timeline": "timeline-1742632489.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1742632049.json",
+		"name": "Scene3"
+	}
+}

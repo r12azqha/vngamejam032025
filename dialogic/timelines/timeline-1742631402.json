@@ -1,0 +1,109 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742631471.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "show ibu_kost normal at center"
+		},
+		{
+			"character": "character-1742631471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, kamu pasti Dimas. Selamat datang di Griya Senja.\nMaaf kalau tempatnya sederhana. Kamu sudah bawa barang-barangmu?"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Iya, Bu. Terima kasih sudah menerima saya meskipun mendadak.\nTapi... boleh saya tanya sesuatu?"
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Kenapa kost ini kosong?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1742631471.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah... itu... banyak mahasiswa pindah karena sudah lulus.\nTempat ini cukup lama berdiri, Nak."
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Aneh, padahal lokasi kost ini strategis, tapi sepi sekali...)\njump lanjut_masuk_kamar"
+		},
+		{
+			"change_timeline": "timeline-1742632049.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Tidak, saya langsung masuk saja.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tidak masalah, Bu. Saya langsung masuk saja."
+		},
+		{
+			"change_timeline": "timeline-1742632049.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1742631402.json",
+		"name": "Sceen2"
+	}
+}

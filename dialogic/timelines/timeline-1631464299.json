@@ -1,0 +1,76 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "play music \"Suara_hujan.mp3\""
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Jalanan ini... sepi sekali.\nSudah pukul sebelas malam, dan aku masih menyeret koperku di trotoar.\nAku benar-benar kehabisan pilihan. Semua kost penuh, kecuali satu tempat ini..."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "play sound \"thunder.mp3\"  "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "scene bg_kost_malam with fade"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Griya Senja...\nBangunan tua dua lantai, cat temboknya mulai mengelupas, dan jendelanya sebagian tertutup kain lusuh.\nKenapa tempat ini terasa... aneh?"
+		},
+		{
+			"change_timeline": "timeline-1742631402.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1631464299.json",
+		"name": "Scene1"
+	}
+}
