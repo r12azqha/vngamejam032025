@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://assets/char/Kunti/Kunti Imut.png"
 		}
 	],
-	"scale": 100,
+	"scale": 25,
 	"theme": ""
 }

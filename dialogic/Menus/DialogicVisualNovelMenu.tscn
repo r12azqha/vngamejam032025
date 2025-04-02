@@ -1,9 +1,9 @@
-[gd_scene load_steps=31 format=2]
+[gd_scene load_steps=32 format=2]
 
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/DefaultBoldFont.tres" type="DynamicFont" id=1]
-[ext_resource path="res://dialogic/Menus/BackgroundImage.jpg" type="Texture" id=2]
+[ext_resource path="res://assets/bg/bg_jalan_menuju_kos.jpg" type="Texture" id=2]
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock-Italic.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://dialogic/Menus/Menu_BackgroundMusic_Next to You.ogg" type="AudioStream" id=4]
+[ext_resource path="res://assets/sfx/Free Horror Ambience (Dark Project).ogg" type="AudioStream" id=4]
 [ext_resource path="res://dialogic/Menus/DialogicMenus_SubMenus.gd" type="Script" id=5]
 [ext_resource path="res://dialogic/Menus/DialogicMenus_Warning.gd" type="Script" id=6]
 [ext_resource path="res://dialogic/Menus/DialogicMenus_SettingsMenu.gd" type="Script" id=7]
@@ -14,6 +14,7 @@
 [ext_resource path="res://dialogic/Menus/DialogicMenus_LoadMenu.gd" type="Script" id=12]
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock-Regular.ttf" type="DynamicFontData" id=13]
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/DefaultItalicFont.tres" type="DynamicFont" id=14]
+[ext_resource path="res://assets/bg/bg_kost_malam.jpg" type="Texture" id=15]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.360784, 0.392157, 0.407843, 1 )
@@ -186,6 +187,7 @@ __meta__ = {
 [node name="BG" type="ColorRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -195,9 +197,6 @@ pause_mode = 1
 anchor_right = 1.0
 anchor_bottom = 1.0
 mouse_filter = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Menus" type="CanvasLayer" parent="."]
 layer = 2
@@ -461,8 +460,17 @@ __meta__ = {
 margin_top = 214.0
 margin_right = 656.0
 margin_bottom = 291.0
-text = "This game was created to showcase the new dialogic saving system."
-align = 1
+text = "Game submission for NaNoRenO 2025 GameJam
+
+
+A Game by The Dugongs:
+- Anone (Game Lead)
+- r12azqha (Programmer)
+- Yuvi (Character Assets)
+
+And big thanks to Dialogic for their amazing addons.
+
+Thanks for playing <3"
 autowrap = true
 
 [node name="Buttons" type="VBoxContainer" parent="Menus/MenuContainer/SubMenus"]
@@ -571,9 +579,6 @@ __meta__ = {
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 8 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 starting_timeline = "DefaultTimeline"
 
 [node name="BackgroundColor" type="ColorRect" parent="Menus/MenuContainer/MainMenu"]
@@ -587,11 +592,8 @@ __meta__ = {
 [node name="BackgroundTexture" type="TextureRect" parent="Menus/MenuContainer/MainMenu"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-texture = ExtResource( 2 )
+texture = ExtResource( 15 )
 expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Buttons" type="VBoxContainer" parent="Menus/MenuContainer/MainMenu"]
 margin_left = 172.121
@@ -605,7 +607,7 @@ alignment = 1
 margin_right = 256.0
 margin_bottom = 62.0
 custom_fonts/font = SubResource( 12 )
-text = "Game of tests"
+text = "Griya Senja"
 __meta__ = {
 "_edit_use_anchors_": false
 }

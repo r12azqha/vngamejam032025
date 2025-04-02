@@ -13,9 +13,9 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://assets/char/Kunti/Untitled101_20250329235504.png"
 		}
 	],
-	"scale": 100,
+	"scale": 25,
 	"theme": ""
 }

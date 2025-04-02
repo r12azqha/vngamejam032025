@@ -80,12 +80,15 @@ _global_script_class_icons={
 
 [application]
 
-config/name="vngamejam032025"
+config/name="Griya Senja"
+config/description="Febi adalah seorang mahasiswa yang mencari kost murah di daerah kampusnya, setelah seharian mencari akhirnya dimas menemukan Kost yang bernama Griya Senja. Awalnya, semua tampak biasa saja, hingga ia mengetahui keberan dibalik kamar 404 yang ia tinggali."
 run/main_scene="res://project/MainScene.tscn"
+boot_splash/image="res://assets/Untitled99_20250329034843.png"
 config/icon="res://icon.png"
 
 [display]
 
+window/size/fullscreen=true
 window/stretch/mode="2d"
 
 [editor_plugins]

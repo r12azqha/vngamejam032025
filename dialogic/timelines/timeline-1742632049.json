@@ -1,21 +1,125 @@
 {
 	"events": [
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
 			"wait_seconds": 1
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/sfx/Langkah_kaki.ogg",
+			"volume": 0
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "(Dimas berjalan melewati lorong sempit, suara langkahnya menggema.)"
+			"text": "(Febi berjalan melewati lorong sempit, suara langkahnya menggema.)"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 12,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Febi takut",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Lorong ini panjang... dan remang-remang.\nLampu berkedip. Udara di sini dingin... terlalu dingin untuk malam biasa."
+			"text": "Lorong ini panjang... dan remang-remang."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "FebiKaget",
+			"text": "Lampu berkedip. Udara di sini dingin... terlalu dingin untuk malam biasa."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"event_id": "dialogic_023",
@@ -33,9 +137,9 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": true,
+				"0": false,
 				"1": false,
-				"2": false,
+				"2": true,
 				"3": false,
 				"4": false
 			},
@@ -43,66 +147,86 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "show arif normal at left"
-		},
-		{
 			"character": "character-1742632198.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Arif Kaget",
 			"text": "Hei, kamu anak baru ya?"
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Eh? Iya, saya Dimas. Baru pindah hari ini."
+			"portrait": "FebiKaget",
+			"text": "Eh? Iya, saya Febi. Baru pindah hari ini."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
 		},
 		{
 			"character": "character-1742632198.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Kamu di kamar mana?"
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
+		},
+		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "404."
 		},
 		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
 			"character": "character-1742632198.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
+			"event_id": "dialogic_001",
+			"portrait": "Arif Kaget",
+			"text": "..."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1742632198.json",
+			"event_id": "dialogic_001",
+			"portrait": "Arif Kaget",
+			"text": "Serius?!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1742632198.json",
+			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
+			"text": "Ah... sudahlah. Semoga beruntung."
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "show arif shocked"
-		},
-		{
-			"character": "character-1742632198.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Serius?!\nAh... sudahlah. Semoga beruntung."
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
 		},
 		{
 			"animation": "[Default]",
@@ -127,13 +251,58 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Febi takut",
 			"text": "(Apa maksudnya 'semoga beruntung'...?)"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"change_timeline": "timeline-1742632489.json",

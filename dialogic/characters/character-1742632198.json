@@ -13,9 +13,13 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://assets/char/Arif/Arif Senyum.png"
+		},
+		{
+			"name": "Arif Kaget",
+			"path": "res://assets/char/Arif/Arif Kaget.png"
 		}
 	],
-	"scale": 100,
+	"scale": 25,
 	"theme": ""
 }

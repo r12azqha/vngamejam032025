@@ -16,24 +16,8 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://assets/sfx/creak.ogg",
 			"volume": 0
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "play sound \"Pintu_dibuka.mp3\"  "
-		},
-		{
-			"background": "",
-			"event_id": "dialogic_021"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "scene bg_kamar_404 with fade"
 		},
 		{
 			"event_id": "dialogic_023",
@@ -41,10 +25,17 @@
 			"wait_seconds": 1
 		},
 		{
-			"character": "character-1742629578.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Kamar ini... bau apek. Seperti sudah lama tidak ditempati.\nLemari tua di sudut ruangan, cermin besar di dinding, dan kasur berdebu.\nKenapa rasanya ada yang memperhatikan...?"
+			"background": "res://assets/bg/bg_kamar_404.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/sfx/Free Horror Ambience (Dark Project).ogg",
+			"volume": 0
 		},
 		{
 			"event_id": "dialogic_023",
@@ -60,10 +51,40 @@
 			"volume": 0
 		},
 		{
-			"character": "",
+			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "play sound \"pintu_diketuk.mp3\"  "
+			"portrait": "Febi takut",
+			"text": "Kamar ini... bau apek. Seperti sudah lama tidak ditempati."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Febi takut",
+			"text": "Lemari tua di sudut ruangan, cermin besar di dinding, dan kasur berdebu."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "FebiKaget",
+			"text": "Kenapa rasanya ada yang memperhatikan...?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/sfx/knock.ogg",
+			"volume": 0
 		},
 		{
 			"character": "",
@@ -77,15 +98,53 @@
 			"wait_seconds": 1
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Eh? Ada suara ketukan dari dalam lemari?\nAku pasti salah dengar... Mungkin ini hanya suara kayu yang mulai lapuk."
+			"portrait": "FebiKaget",
+			"text": "Eh? Ada suara ketukan dari dalam lemari?"
 		},
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
 			"wait_seconds": 1
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Febi takut",
+			"text": "Aku pasti salah dengar... Mungkin ini hanya suara kayu yang mulai lapuk."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/sfx/knock2.ogg",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"TOK. TOK. TOK.\""
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
 		},
 		{
 			"audio": "play",
@@ -96,20 +155,9 @@
 			"volume": 0
 		},
 		{
-			"character": "",
+			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "play sound \"knock_door.mp3\"\n\"TOK. TOK. TOK.\""
-		},
-		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 1
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "FebiKaget",
 			"text": "Tidak... suara itu jelas berasal dari dalam lemari!"
 		},
 		{
@@ -147,38 +195,67 @@
 		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Febi takut",
 			"text": "Mungkin hanya tikus..."
 		},
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 1
+			"wait_seconds": 2
 		},
 		{
-			"audio": "play",
 			"audio_bus": "Master",
-			"event_id": "dialogic_030",
-			"event_name": "AudioEvent",
-			"file": "",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/sfx/lemari.ogg",
 			"volume": 0
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "play sound \"Suara_lemari.mp3\""
 		},
 		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Febi takut",
 			"text": "Akan kubuka... *Kreekk...*"
 		},
 		{
 			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
+			"hide_dialogbox": false,
 			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 7,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742633511.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"animation": "[Default]",
@@ -201,6 +278,15 @@
 			"z_index": 0
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/sfx/whisper.ogg",
+			"volume": 0
+		},
+		{
 			"character": "character-1742633992.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -208,14 +294,33 @@
 		},
 		{
 			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
+			"hide_dialogbox": false,
 			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 8,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
 		},
 		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "FebiKaget",
 			"text": "Astaga!! Makhluk apa itu?!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
 		},
 		{
 			"character": "character-1742629578.json",
@@ -223,7 +328,7 @@
 			"options": [
 
 			],
-			"portrait": "",
+			"portrait": "Febi takut",
 			"question": ""
 		},
 		{
@@ -264,10 +369,55 @@
 			"wait_seconds": 1
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Febi takut",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Febi takut",
 			"text": "Cerminnya... kenapa terasa dingin saat kusentuh?"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"event_id": "dialogic_023",
@@ -295,24 +445,27 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "show cermin_buram at center"
-		},
-		{
-			"audio": "play",
 			"audio_bus": "Master",
-			"event_id": "dialogic_030",
-			"event_name": "AudioEvent",
-			"file": "",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/sfx/whisper.ogg",
 			"volume": 0
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "play sound \"whisper.mp3\"  "
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 7,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "character-1742633579.json",
@@ -328,8 +481,19 @@
 		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Aaaa… Apa itu tadi?! Aku pasti salah lihat... Tidak, tidak mungkin aku salah lihat\nMakhluk tadi… dia bicara soal lemari, apakah ada sesuatu dilemari?"
+			"portrait": "FebiKaget",
+			"text": "Aaaa… Apa itu tadi?! Aku pasti salah lihat... Tidak, tidak mungkin aku salah lihat"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_001",
+			"portrait": "FebiKaget",
+			"text": "Makhluk tadi… dia bicara soal lemari, apakah ada sesuatu dilemari?"
 		},
 		{
 			"event_id": "dialogic_023",
@@ -353,9 +517,29 @@
 			"wait_seconds": 1
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Aku lelah. Mungkin aku hanya paranoid..."
 		},
 		{
@@ -364,23 +548,61 @@
 			"wait_seconds": 1
 		},
 		{
-			"audio": "play",
-			"audio_bus": "Master",
-			"event_id": "dialogic_030",
-			"event_name": "AudioEvent",
-			"file": "",
-			"volume": 0
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
 			"portrait": "",
-			"text": "play sound \"horror_whisper.mp3\""
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
 			"wait_seconds": 1
+		},
+		{
+			"background": "res://assets/bg/515101-black-wallpaper-black-wallpaper-amazing-black-wallpaper-and-black-victorian-wallpaper.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/sfx/whisper.ogg",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 7,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "character-1742633992.json",
@@ -394,40 +616,71 @@
 			"wait_seconds": 1
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1742629578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "FebiKaget",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "FebiKaget",
 			"text": "Apa... Aku tidak bisa bergerak..."
 		},
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 1
+			"wait_seconds": 2
 		},
 		{
-			"background": "",
-			"event_id": "dialogic_021"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
 			"portrait": "",
-			"text": "scene bg_kost_gelap"
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "FebiKaget",
 			"text": "AAARGHHH!"
 		},
 		{
 			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 3
+			"hide_dialogbox": false,
+			"wait_seconds": 1
 		},
 		{
-			"change_timeline": "timeline-1742639696.json",
-			"event_id": "dialogic_020"
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
 		},
 		{
 			"event_id": "dialogic_013"

@@ -5,7 +5,7 @@
 	"display_name_bool": false,
 	"id": "character-1742629578.json",
 	"mirror_portraits": false,
-	"name": "Dimas",
+	"name": "Febi",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,9 +13,21 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://assets/char/Febi/Febi senyum.png"
+		},
+		{
+			"name": "Febi Datar",
+			"path": "res://assets/char/Febi/Febi Datar.png"
+		},
+		{
+			"name": "Febi takut",
+			"path": "res://assets/char/Febi/Febi takut.png"
+		},
+		{
+			"name": "FebiKaget",
+			"path": "res://assets/char/Febi/FebiKaget.png"
 		}
 	],
-	"scale": 100,
+	"scale": 25,
 	"theme": ""
 }

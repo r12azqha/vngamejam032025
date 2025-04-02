@@ -13,9 +13,17 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://assets/char/Ratna Kos/Mamakos Datar.png"
+		},
+		{
+			"name": "Mamakos Senyum",
+			"path": "res://assets/char/Ratna Kos/Mamakos Senyum.png"
+		},
+		{
+			"name": "Mamakos Sedih",
+			"path": "res://assets/char/Ratna Kos/Mamakos Sedih.png"
 		}
 	],
-	"scale": 100,
+	"scale": 25,
 	"theme": ""
 }

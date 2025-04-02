@@ -1,6 +1,10 @@
 {
 	"events": [
 		{
+			"background": "res://assets/bg/515101-black-wallpaper-black-wallpaper-amazing-black-wallpaper-and-black-victorian-wallpaper.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
 			"wait_seconds": 3

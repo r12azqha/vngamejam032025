@@ -8,7 +8,7 @@
 		{
 			"character": "character-1742629578.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "FebiKaget",
 			"text": "Aku tidak mau tahu! Aku harus pergi dari sini !"
 		},
 		{
@@ -17,25 +17,71 @@
 			"wait_seconds": 1
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
 			"background": "",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "scene bg_kost_siang"
+			"text": "Dengan gelisahnya si febi.. dia berhasil kabur dari kosan tersebut.."
 		},
 		{
-			"character": "character-1742629578.json",
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Dengan wajah gelisah dan ketakutan, aku langsung pergi tanpa mengatakan apapun\nTapi... aku masih bisa mendengar suara ketukan dari dalam lemari itu..."
+			"text": "tetapi febi merasakan bahwa dia masih dihantui oleh si kunti.."
 		},
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Neutral Ending"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
 		},
 		{
 			"change_timeline": "timeline-1742639696.json",
